@@ -20,7 +20,6 @@ export default function Home() {
       <p>{anonAadhaar?.status}</p>
     </div>
     <div >
-      {/* Render the proof if generated and valid */}
       {anonAadhaar?.status === "logged-in" && (
         <>
           <p>✅ Proof is valid</p>
